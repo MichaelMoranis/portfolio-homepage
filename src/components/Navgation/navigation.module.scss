@@ -1,0 +1,16 @@
+.navigation {
+ display: flex;
+}
+
+.listItem {
+ list-style: none;
+}
+
+.itens {
+ list-style: none;
+ text-decoration: none;
+ color: var(--color-white);
+ padding: 1rem;
+ font-family: var(--font-origin);
+ font-size: 12px;
+}
