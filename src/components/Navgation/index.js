@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./navigation.module.scss"
+import ThemeToggle from "components/Button";
 
 function Navigation() {
   const navigationItem = [
@@ -18,6 +19,7 @@ function Navigation() {
               <Link to="/" className={styles.itens}>{item.profile}</Link>
               <Link to="/" className={styles.itens}>{item.bio}</Link>
               <Link to="/" className={styles.itens}>{item.works}</Link>
+              <ThemeToggle />
             </li>
           ))}
         </ul>
