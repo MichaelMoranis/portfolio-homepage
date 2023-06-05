@@ -9,8 +9,16 @@
 .itens {
  list-style: none;
  text-decoration: none;
- color: black;
+ color: "#fff";
  padding: 1rem;
  font-family: var(--font-origin);
  font-size: 24px;
+}
+
+@media screen and (max-width: 502px) {
+ .itens {
+  margin: auto;
+  padding: 1em;
+  font-size: 0.5em;
+ }
 }

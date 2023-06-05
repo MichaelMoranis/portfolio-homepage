@@ -1,23 +1,25 @@
-import { BrowserRouter } from "react-router-dom";
+import { ChakraProvider} from "@chakra-ui/react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import { ChakraProvider } from "@chakra-ui/react";
+import theme from "components/theme";
+import InitialPage from "pages/initialPage";
+import MainContent from "components/Profile";
+
 
 function AppRoutes() {
   return (
+    <ChakraProvider theme={theme}>
       <BrowserRouter>
-        <ChakraProvider>
-          <Header />
-        </ChakraProvider>
+        <Header />
+        <Routes>
+          <Route path="/initial" element={<InitialPage />} />
+          <Route path="/profile" element={<MainContent />} />
+        </Routes>
       </BrowserRouter>
+    </ChakraProvider>
   );
 }
 
-function App() {
- return (
-   <ChakraProvider>
-       <AppRoutes />
-   </ChakraProvider>
- );
-}
+export default AppRoutes;
 
-export default App;
+
