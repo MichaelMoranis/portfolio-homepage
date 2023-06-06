@@ -1,17 +1,20 @@
 [
  {
      "id": 1,
-     "titulo": "Organo: App",
-     "texto": "> Clique para acessar o website: <https://organo-app-alura.vercel.app>"
+     "image": "caminho/para/image.png",
+     "heading": "Organo: App",
+     "text": "             Organo: Minha aplicacao web desenvolvida para desenvolvedores adicionarem seus times e escolher sua cor preferida !"
  },
- {
-     "id": 1,
-     "titulo": "Organo: App",
-     "texto": "> Clique para acessar o website: <https://organo-app-alura.vercel.app>"
+  {
+     "id": 2,
+     "image": "caminho/para/image.png",
+     "heading": "Organo: App",
+     "text": "michael conseguiu renderizar tudo sozinho usando o map e elemento ou componentes do chakra ui para montar aplicacao"
  },
- {
-     "id": 1,
-     "titulo": "Organo: App",
-     "texto": "> Clique para acessar o website: <https://organo-app-alura.vercel.app>"
+  {
+     "id": 3,
+     "image": "caminho/para/image.png",
+     "heading": "Organo: App",
+     "text": "> aqui eu vou escrever tudo diferente para textar minha aplicacao"
  }
 ]
