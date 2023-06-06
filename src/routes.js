@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import theme from "components/theme";
 import InitialPage from "pages/initialPage";
 import MainContent from "components/Profile";
-
+import Works from "./components/Works";
 
 function AppRoutes() {
   return (
@@ -14,6 +14,7 @@ function AppRoutes() {
         <Routes>
           <Route path="/initial" element={<InitialPage />} />
           <Route path="/profile" element={<MainContent />} />
+          <Route path="/works" element={<Works />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

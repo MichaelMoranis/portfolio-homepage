@@ -1,3 +1,4 @@
+import Posts from "components/Posts";
 import styles from "./initial.module.scss";
 
 function InitialPage() {
@@ -10,9 +11,12 @@ function InitialPage() {
         </h1>
       </div>
       <p className={styles.container__paragraf}>
-      👋 Olá, sou Michael, um desenvolvedor focado em FronEnd que mora em Cascavel PR. Atualmente estou
+       👋 Olá, sou Michael, um desenvolvedor focado em FronEnd que mora em Cascavel PR.    Atualmente estou
         em desenvolvimento de novas habilidades no universo da programacao !!
       </p>
+      <section>
+        <Posts />
+      </section>
     </main>
   );
 }

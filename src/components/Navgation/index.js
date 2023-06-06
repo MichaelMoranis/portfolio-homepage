@@ -18,7 +18,7 @@ function Navigation() {
             <li key={index}>
               <Link to="/profile" className={styles.itens}>{item.profile}</Link>
               <Link to="/" className={styles.itens}>{item.bio}</Link>
-              <Link to="/" className={styles.itens}>{item.works}</Link>
+              <Link to="/works" className={styles.itens}>{item.works}</Link>
               <ThemeToggle />
             </li>
           ))}
