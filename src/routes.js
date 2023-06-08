@@ -12,9 +12,9 @@ function AppRoutes() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/initial" element={<InitialPage />} />
           <Route path="/profile" element={<MainContent />} />
           <Route path="/works" element={<Works />} />
+          <Route path="/initial" element={<InitialPage />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

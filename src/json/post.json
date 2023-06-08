@@ -1,20 +1,20 @@
 [
  {
      "id": 1,
-     "image": "caminho/para/image.png",
      "heading": "Organo: App",
-     "text": "             Organo: Minha aplicacao web desenvolvida para desenvolvedores adicionarem seus times e escolher sua cor preferida !"
+     "image": "https://img.freepik.com/vetores-premium/design-de-modelo-vetorial-de-organograma-para-web-e-impressao_29008-381.jpg?w=740",
+     "text":"Organo: Minha aplicacao web desenvolvida para desenvolvedores adicionarem seus times e escolher sua cor preferida !"
  },
   {
      "id": 2,
-     "image": "caminho/para/image.png",
-     "heading": "Organo: App",
+     "image": "https://conexao.coop.br/wp-content/uploads/2022/10/iStock-1298941630.png",
+     "heading": "Negociacoes: Aplicacao construida para testar meus conhecimentos em TypeScript !",
      "text": "michael conseguiu renderizar tudo sozinho usando o map e elemento ou componentes do chakra ui para montar aplicacao"
  },
   {
      "id": 3,
-     "image": "caminho/para/image.png",
-     "heading": "Organo: App",
-     "text": "> aqui eu vou escrever tudo diferente para textar minha aplicacao"
+     "image": "https://assets.justinmind.com/wp-content/webp-express/webp-images/uploads/2019/10/best-20-web-development-blogs.png.webp",
+     "heading": "Blog: Meu website pessoal onde compartilho todo o conhecimento adquirido durante minha jornada como desenvolvedor web !",
+     "text": " aqui eu vou escrever tudo diferente para testar minha aplicacao"
  }
 ]
