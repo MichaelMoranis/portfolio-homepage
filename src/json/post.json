@@ -3,18 +3,18 @@
      "id": 1,
      "heading": "Organo: App",
      "image": "https://img.freepik.com/vetores-premium/design-de-modelo-vetorial-de-organograma-para-web-e-impressao_29008-381.jpg?w=740",
-     "text":"Organo: Minha aplicacao web desenvolvida para desenvolvedores adicionarem seus times e escolher sua cor preferida !"
+     "text":"Organo: Minha aplicacao web desenvolvida para desenvolvedores adicionarem seus times e escolher sua cor preferida! Nessa apliacao tive o primeiro contato consistente com a lib React JS, entendi conceitos de componentes propriedades e qual o problema que essa biblioteca veio para resolver !"
  },
   {
      "id": 2,
      "image": "https://conexao.coop.br/wp-content/uploads/2022/10/iStock-1298941630.png",
-     "heading": "Negociacoes: Aplicacao construida para testar meus conhecimentos em TypeScript !",
-     "text": "michael conseguiu renderizar tudo sozinho usando o map e elemento ou componentes do chakra ui para montar aplicacao"
+     "heading": "Negociacoes:",
+     "text": " Aplicacao construida para testar meus conhecimentos em TypeScript! Aqui eu pude por em pratica como funciona uma aplicacao construida com TypeScript, e como os tipos podem ajudar o desenvolvedor no momento de desenvolvimento e como pode ser util para evitar erros que possam ir para producao."
  },
   {
      "id": 3,
      "image": "https://assets.justinmind.com/wp-content/webp-express/webp-images/uploads/2019/10/best-20-web-development-blogs.png.webp",
-     "heading": "Blog: Meu website pessoal onde compartilho todo o conhecimento adquirido durante minha jornada como desenvolvedor web !",
-     "text": " aqui eu vou escrever tudo diferente para testar minha aplicacao"
+     "heading": "Blog:",
+     "text": " Meu website pessoal onde compartilho todo o conhecimento adquirido durante minha jornada como desenvolvedor web! No meu blog, estou reunindo varias das aplicacoes desenvolvidas ao longo dos meus estudos de desenvolvimento web bem mostro na secao works as mesmas aplicacoes !"
  }
 ]

@@ -6,26 +6,28 @@ import {
   Text,
   Image,
   CardFooter,
-  Button
+  Button,
+  useMediaQuery
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 function Posts(props) {
   const { posts } = props;
+  const [isSmallerThan1120] = useMediaQuery("(max-width: 1505px)");
   return (
     <>
      {posts.map((item) => (
        <Card
-       direction={{ base: "column", sm: "row" }}
+       direction={isSmallerThan1120 ? "column" : "row"}
        overflow="hidden"
-       variant="outline"
+       bg="transparent"
        mb="1em"
        w={{base: "100%", sm: "auto"}}
        key={item.id}
      >
        <Image
          objectFit="cover"
-         maxW={{ base: "100%", sm: "320px" }}
+         maxW={ isSmallerThan1120 ? "100%" : "320px"}
          src={item.image}
          alt="imagem"
        />
