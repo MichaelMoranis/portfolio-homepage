@@ -3,7 +3,9 @@ import styles from "./logo.module.scss"
 
 function LogoLink() {
  return (
-   <Link to="/initial" className={styles.container__logo}>MichaelM</Link>
+   <Link to="/" className={styles.container__logo}>
+     MichaelM
+   </Link>
  )
 }
 

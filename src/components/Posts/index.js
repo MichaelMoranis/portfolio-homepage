@@ -9,7 +9,6 @@ import {
   Button,
   useMediaQuery
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 
 function Posts(props) {
   const { posts } = props;
@@ -42,9 +41,9 @@ function Posts(props) {
          </CardBody>
          <CardFooter>
            <Button variant="solid" colorScheme="blue">
-             <Link>
+             <a href={item.link} target="blank">
                ver mais
-             </Link>
+             </a>
            </Button>
          </CardFooter>
        </Stack>

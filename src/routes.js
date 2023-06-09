@@ -14,7 +14,7 @@ function AppRoutes() {
         <Routes>
           <Route path="/profile" element={<MainContent />} />
           <Route path="/works" element={<Works />} />
-          <Route path="/initial" element={<InitialPage />} />
+          <Route path="/" element={<InitialPage />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

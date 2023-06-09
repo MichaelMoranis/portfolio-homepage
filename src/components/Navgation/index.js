@@ -5,9 +5,9 @@ import ThemeToggle from "components/Button";
 function Navigation() {
   const navigationItem = [
     {
-      profile: "Profile",
-      bio: "Bio",
-      works: "Works"
+      profile: "Perfil",
+      bio: "GitHub",
+      works: "Trabalhos"
     }
   ]
  return (
@@ -17,7 +17,9 @@ function Navigation() {
           {navigationItem.map((item, index) => (
             <li key={index}>
               <Link to="/profile" className={styles.itens}>{item.profile}</Link>
-              <Link to="/" className={styles.itens}>{item.bio}</Link>
+               <a href="https://github.com/michaelmoranis/" className={styles.itens}>
+                 GitHub
+               </a>
               <Link to="/works" className={styles.itens}>{item.works}</Link>
               <ThemeToggle />
             </li>

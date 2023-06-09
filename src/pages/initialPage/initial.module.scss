@@ -36,6 +36,14 @@
   font-size: 1.8em;
   margin-bottom: 2em;
 }
+.container__link {
+  margin: 2em auto;
+}
+.link {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 2em auto;
+}
 
 @media screen and (max-width: 1120px) {
   .container {
