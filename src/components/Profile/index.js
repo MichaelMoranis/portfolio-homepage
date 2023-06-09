@@ -1,36 +1,28 @@
+import styles from "./profile.module.scss";
+
 function Profile() {
   return (
-    <section>
-      <h1>Profile</h1>
-      <p>
-        I'm Alex, a web engineer and designer. I'm currently based in London,
-        and working with Monzo where I'm helping build the next generation of
-        web banking apps at Monzo.
+    <section className={styles.container}>
+      <h1 className={styles.title}>Perfil</h1>
+      <p className={styles.paragraf}>
+        Sou Michael, engenheiro e designer web. Atualmente estou morando em
+        Cascavel PR, e trabalhando oportunidades em desenvolvimento web, onde estou buscando contribuir a construir a
+        próxima geração de aplicativos web.
       </p>
-      <p>
-        I have a particular passion for design systems and design tooling,
-        having been fortunate enough to work on these problems at my previous
-        three companies.
+      <p className={styles.paragraf}>
+        Tenho uma paixão particular por sistemas de desenvolvimento de software e ferramentas de design
+        , tendo tido a sorte de trabalhar com essas ferramentas e em meus
+        estudos anteriores em projetos desenvolvidos por mim aqui na web.
       </p>
-      <p>
-        Every now and then I also write articles, including for Awwwards, Web
-        Designer Magazine and net Magazine.
+      <p className={styles.paragraf}>
+        De vez em quando também escrevo artigos, inclusive no Dev.To !
       </p>
-      <h2>Experience</h2>
-      <p>
-        <strong>Monzo</strong> <small>(2019 - current)</small>
+      <h2>Buscando experiencias</h2>
+      <p className={styles.paragraf}>
+        <strong>Buscando experiencias</strong> <small>(Estudando desde 2021)</small>
       </p>
-      <p>
-        As a web engineer at Monzo, I've led engineering on several high-profile
-        projects including Year in Monzo. Likewise, I've helped launch our first
-        public web banking app.
-      </p>
-      <p>
-        <strong>Kalo</strong> <small>(2017 - 2019)</small>
-      </p>
-      <p>
-        Before Monzo, I spent 2 years at Kalo (now Polywork) building products
-        to help freelancers and businesses work more seamlessly together.
+      <p className={styles.paragraf}>
+        Como engenheiro da web, tenho procurado me atualizar sempre, buscando estar por dentro das noticias e novidades que acontecem na comunidade de desenvolvimento !
       </p>
     </section>
   );

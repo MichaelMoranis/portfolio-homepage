@@ -1,0 +1,37 @@
+.container {
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ width: 50%;
+ margin: auto;
+ margin-top: 6em;
+ margin-bottom: 3em;
+ gap: 2em;
+ font-family: var(--font-origin);
+}
+.title {
+ font-size: 48px;
+ font-weight: 500;
+}
+.paragraf {
+ font-size: 32px;
+}
+
+@media screen and (max-width: 1120px) {
+ .container {
+  width: 100%;
+  margin: 10px;
+  padding: 1em;
+ }
+ .title {
+  width: 100%;
+  margin: auto;
+  font-size: 40px;
+ }
+ .paragraf {
+  width: 100%;
+  font-size: 18px;
+  padding: 2px;
+ }
+}
