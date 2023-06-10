@@ -26,9 +26,9 @@ function Navigation() {
           ))}
         </ul>
      </nav>
-     <div>
-     <MenuNavigation />
+     <div className={styles.componentsNavigations}>
      <ThemeToggle />
+     <MenuNavigation />
      </div>
    </>
  )

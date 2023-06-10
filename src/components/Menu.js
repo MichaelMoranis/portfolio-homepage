@@ -6,6 +6,7 @@ import {
  MenuItem,
  IconButton
  } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
  function MenuNavigation() {
   return (
@@ -22,9 +23,10 @@ import {
         Actions
       </MenuButton>
       <MenuList>
-       <MenuItem fontSize="xl">perfil</MenuItem>
-       <MenuItem fontSize="xl">github</MenuItem>
-       <MenuItem fontSize="xl">trabalhos</MenuItem>
+       <MenuItem fontSize="xl"><Link to="/profile">perfil</Link></MenuItem>
+       <MenuItem fontSize="xl"><Link to="/">bio</Link></MenuItem>
+       <MenuItem fontSize="xl"><a href="https://github.com/michaelmoranis" target="_blanck">github</a></MenuItem>
+       <MenuItem fontSize="xl"><Link to="/works">trabalhos</Link></MenuItem>
       </MenuList>
      </Menu>
    </>
