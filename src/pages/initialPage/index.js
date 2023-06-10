@@ -8,13 +8,13 @@ function InitialPage() {
     <main className={styles.container}>
       <div className={styles.container__titulo}>
         <h1 className={styles.titulo}>
-          Um desenvolvedor web interessado em desenvolvimento de aplicativos,
+          Desenvolvedor web interessado em desenvolvimento de aplicativos,
           sites, jogos e sistemas baseados na web!
         </h1>
       </div>
       <div className={styles.content__paragraf}>
         <p className={styles.container__paragraf}>
-          👋 Olá, sou Michael, um desenvolvedor focado em FronEnd que mora em
+          👋 Olá, sou Michael, um desenvolvedor focado em FrontEnd que mora em
           Cascavel PR. Atualmente estou em desenvolvimento de novas habilidades
           em engenharia de software !
         </p>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./navigation.module.scss"
 import ThemeToggle from "components/Button";
+import MenuNavigation from "components/Menu";
 
 function Navigation() {
   const navigationItem = [
@@ -21,11 +22,14 @@ function Navigation() {
                  GitHub
                </a>
               <Link to="/works" className={styles.itens}>{item.works}</Link>
-              <ThemeToggle />
             </li>
           ))}
         </ul>
      </nav>
+     <div>
+     <MenuNavigation />
+     <ThemeToggle />
+     </div>
    </>
  )
 }

@@ -15,6 +15,9 @@
  font-size: 24px;
 }
 @media screen and (max-width: 1120px) {
+ .navigation {
+  display: none;
+ }
  .itens {
   margin: auto;
   padding: 1em;
