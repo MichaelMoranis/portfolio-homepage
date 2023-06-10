@@ -4,21 +4,19 @@
  align-items: center;
  margin-left: 25%;
  margin-right: 25%;
+ background-color:#fa3b29;
+ height: 3em;
 
  &.darkBackGround {
   position: fixed;
   top: 0;
-  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -0.2rem;
-  width: 51.5%;
-  padding: 5px;
+  width: 51.4%;
+  margin-left: 25%;
+  margin-right: 25%;
   z-index: 1;
-  background-color:#fa3b29;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
  }
 }
 
