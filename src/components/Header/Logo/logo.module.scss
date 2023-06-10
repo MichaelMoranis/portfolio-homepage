@@ -3,12 +3,12 @@
  text-decoration: none;
  cursor: pointer;
  font-family: var(--font-origin);
- font-size: 24px;
+ font-size: 32px;
 }
 
 @media screen and (max-width: 502px) {
  .container__logo {
   padding: 0.5em;
-  font-size: 12px;
+  font-size: 24px;
  }
 }
