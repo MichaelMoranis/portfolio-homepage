@@ -2,9 +2,24 @@
  display: flex;
  justify-content: space-between;
  align-items: center;
- padding-top: 1rem;
  margin-left: 25%;
  margin-right: 25%;
+
+ &.darkBackGround {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.2rem;
+  width: 51.5%;
+  padding: 5px;
+  z-index: 1;
+  background-color:#fa3b29;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+ }
 }
 
 @media screen and (max-width: 1120px) {
@@ -12,10 +27,17 @@
   margin: auto;
   padding: 2em;
  }
+ .container_header.darkBackGround {
+  margin: auto;
+  width: 100%;
+ }
 }
 @media screen and (max-width: 390px) {
  .container_header {
   margin: auto;
-  padding: 1em;
+ }
+ .container_header.darkBackGround {
+  margin: auto;
+  width: 100%;
  }
 }
