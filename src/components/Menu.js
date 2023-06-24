@@ -20,13 +20,11 @@ import { Link } from "react-router-dom";
       transition="all 0.2s"
       _hover={{bg: "gray.400"}}
       >
-        Actions
       </MenuButton>
       <MenuList>
        <MenuItem fontSize="xl"><Link to="/profile">perfil</Link></MenuItem>
        <MenuItem fontSize="xl"><Link to="/">bio</Link></MenuItem>
        <MenuItem fontSize="xl"><a href="https://github.com/michaelmoranis" target="_blanck">github</a></MenuItem>
-       <MenuItem fontSize="xl"><Link to="/works">trabalhos</Link></MenuItem>
       </MenuList>
      </Menu>
    </>

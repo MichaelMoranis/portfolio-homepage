@@ -29,9 +29,6 @@ function Navigation() {
               >
                 GitHub
               </a>
-              <Link to="/works" className={styles.itens}>
-                {item.works}
-              </Link>
             </li>
           ))}
         </ul>
