@@ -9,8 +9,6 @@ No diretório do projeto, você pode executar:
  `npm start`
 
 Para parar o processo digite 
-
- digite
  
  `ctrl + C`
 
