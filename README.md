@@ -6,7 +6,7 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 
 No diretório do projeto, você pode executar:
 
-### `npm start`
+ `npm start`
 
 Para parar o processo digite 
 
