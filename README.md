@@ -10,7 +10,9 @@ No diretório do projeto, você pode executar:
 
 Para parar o processo digite 
 
- digite ### `ctrl + C`
+ digite
+ 
+ `ctrl + C`
 
 Executa o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
