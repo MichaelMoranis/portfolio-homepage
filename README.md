@@ -8,7 +8,9 @@ No diretório do projeto, você pode executar:
 
 ### `npm start`
 
-Para parar o processo, digite ### `ctrl + C`
+Para parar o processo digite 
+
+ digite ### `ctrl + C`
 
 Executa o aplicativo no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
